@@ -73,3 +73,22 @@ Drop down menu working
 Date:29/10/2023  Time:19:23
 
 Added 3 project and pushed to github
+
+
+ ******************************
+Date:29/10/2023  Time:19:25
+added data folder to dataaccess 
+
+ ******************************
+Date:29/10/2023  Time:19:29
+
+Downloaded NuGet packes
+deleted migration folder
+
+
+ ******************************
+Date:29/10/2023  Time:19:34
+
+Downloaded packed
+change namespace
+deleted all class1.cs files
