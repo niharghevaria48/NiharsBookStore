@@ -68,3 +68,8 @@ added dropdwon in nav bar but not working
  ******************************
 Date:25/10/2023  Time:3:31
 Drop down menu working
+
+ ******************************
+Date:29/10/2023  Time:19:23
+
+Added 3 project and pushed to github
