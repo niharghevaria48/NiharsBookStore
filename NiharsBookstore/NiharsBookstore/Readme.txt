@@ -92,3 +92,33 @@ Date:29/10/2023  Time:19:34
 Downloaded packed
 change namespace
 deleted all class1.cs files
+
+
+ ******************************
+Date:29/10/2023  Time:19:45.
+
+Moved models folder to class library
+modifed error.cshtml file
+added project refrences
+rename  models  folders to viewmodels
+change the namespace in error view model
+
+
+ ******************************
+Date:29/10/2023  Time:19:51
+
+Remove using statement from startup file
+using NiharsBookstore.Data;
+
+
+
+ ******************************
+Date:29/10/2023  Time:19:54
+
+Changed the name space from default refrence to new refrences
+
+ ******************************
+Date:29/10/2023  Time:20:10
+
+Added sd.cs file
+added project refrense
