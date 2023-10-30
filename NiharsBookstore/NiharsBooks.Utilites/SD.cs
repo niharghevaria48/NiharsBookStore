@@ -4,7 +4,7 @@ using System.Text;
 
 namespace NiharsBooks.Utilites
 {
-    public static class SD
+    class SD
     {
     }
 }
