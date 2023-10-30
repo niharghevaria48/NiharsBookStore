@@ -143,3 +143,12 @@ Date:29/10/2023  Time:20:27
 Added admin area
 added views files
 deleted model controller folders
+
+
+ ******************************
+Date:30/10/2023  Time:17:38
+
+
+Was having error
+solved by spelling correction
+Project was running fine
