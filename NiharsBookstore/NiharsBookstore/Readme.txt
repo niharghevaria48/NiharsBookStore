@@ -122,3 +122,16 @@ Date:29/10/2023  Time:20:10
 
 Added sd.cs file
 added project refrense
+
+
+ ******************************
+Date:29/10/2023  Time:20:14
+
+added new area
+Change routes in startup.cs
+
+ ******************************
+Date:29/10/2023  Time:20:16
+
+shifted home controller and deleted model and view
+Edited homecontroller and  moved  Home folder in area
