@@ -135,3 +135,11 @@ Date:29/10/2023  Time:20:16
 
 shifted home controller and deleted model and view
 Edited homecontroller and  moved  Home folder in area
+
+
+ ******************************
+Date:29/10/2023  Time:20:27
+
+Added admin area
+added views files
+deleted model controller folders
