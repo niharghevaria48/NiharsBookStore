@@ -21,7 +21,7 @@ namespace NiharsBookstore
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
-        }
+        }                   
 
         public IConfiguration Configuration { get; }
 
@@ -64,7 +64,7 @@ namespace NiharsBookstore
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{area:exists}/{controller=Home}/{action=Index}/{id?}");
+                    pattern: "{area=Customer}/{controller=Home}/{action=Index}/{id?}");
                 endpoints.MapRazorPages();
             });
         }
