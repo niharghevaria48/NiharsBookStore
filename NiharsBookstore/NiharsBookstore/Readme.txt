@@ -146,25 +146,9 @@ deleted model controller folders
 
 
  ******************************
-Date:02/11/2023  Time:19:23
-
-starting part2
-modified appsetting.json (aspnet-719DC228-611B-47F1-959C-013CB1919EDB)
-
-added  migration using following command
-add-migration AddDefaultIdentityMigration
-having error but changed default project to Dataaccess and it worked
-
-migration file names
-20231102232811_AddDefaultIdentityMigration.cs
-ApplicationDbContextModelSnapshot.cs
+Date:30/10/2023  Time:17:38
 
 
- ******************************
-Date:02/11/2023  Time:19:31
-
-review the migration files
-update the database 
-review the database in SQL server object explore
-
-Run the project everything is working file
+Was having error
+solved by spelling correction
+Project was running fine
