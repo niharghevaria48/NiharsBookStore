@@ -152,3 +152,39 @@ Date:30/10/2023  Time:17:38
 Was having error
 solved by spelling correction
 Project was running fine
+
+
+
+ ******************************
+Date:2/11/2023  Time:19:00
+Changed in appsetting.json file
+
+
+ ******************************
+Date:2/11/2023  Time:19:10
+
+Added migration from nuget packet manager
+add-migration AddDefaultIdentityMigration
+follwings are files
+20231102232811_AddDefaultIdentityMigration.cs
+ApplicationDbContextModelSnapshot.cs
+
+ ******************************
+Date:2/11/2023  Time:19:16
+
+Updated the database using follwing commands
+update-database
+
+
+
+ ******************************
+Date:2/11/2023  Time:19:38
+
+Added new class file called category.cs
+added migration for category 
+add-migration AddCategoryToDb
+
+
+ ******************************
+Date:2/11/2023  Time:20:01
+rerun the migration command and updated te database
