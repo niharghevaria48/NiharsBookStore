@@ -188,3 +188,18 @@ add-migration AddCategoryToDb
  ******************************
 Date:2/11/2023  Time:20:01
 rerun the migration command and updated te database
+
+
+ ******************************
+Date:2/11/2023  Time:20:08
+
+Adde 2 folder called repository
+added interface in repository folder called it Irepository.cs
+
+
+ ******************************
+Date:2/11/2023  Time:20:15
+
+Modified the IRepository.cs
+Added object to reposity interface
+
