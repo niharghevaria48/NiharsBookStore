@@ -203,3 +203,17 @@ Date:2/11/2023  Time:20:15
 Modified the IRepository.cs
 Added object to reposity interface
 
+
+ ******************************
+Date:2/11/2023  Time:20:22
+Added new class in repository
+implemented new interfce in file
+added provided code into repository
+
+
+
+Slide 8
+
+
+
+
