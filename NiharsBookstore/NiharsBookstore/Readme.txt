@@ -221,7 +221,29 @@ Modified ICategoryRepository file
 
 
 
-Slide 8
+
+ ******************************
+Date:3/11/2023  Time:20:38
+added new repo
+isp_call.cs
+install Dapper nuget pakcet
+
+
+ ******************************
+Date:3/11/2023  Time:20:44
+edited new repo file
+
+
+ ******************************
+Date:3/11/2023  Time:21:24
+Added new connectionDb 
+Updated the code 
+Added wrapper of unit of work
+
+added new repo
+edited code in new repo file
+
+edited startup.cs file
 
 
 

@@ -7,7 +7,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-
+using NiharsBooks.DataAccess.Repository;
 using NiharsBookstore.DataAccess.Data;
 using System;
 using System.Collections.Generic;
@@ -35,6 +35,7 @@ namespace NiharsBookstore
 
             services.AddDefaultIdentity<IdentityUser>()
                 .AddEntityFrameworkStores<ApplicationDbContext>();
+            services.AddScoped<UnitOfWork, UnitOfWork>();
             services.AddControllersWithViews();
         }
 
