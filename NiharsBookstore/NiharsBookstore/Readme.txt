@@ -292,5 +292,14 @@ added new asp action  to upsert
 Added section call to upseret.cshtml
 
 
+ ******************************
+Date:5/11/2023  Time:14:30
+Added code in category controller
+
+ ******************************
+Date:5/11/2023  Time:15:00
+Run the application and its working fine
+
+
 
 

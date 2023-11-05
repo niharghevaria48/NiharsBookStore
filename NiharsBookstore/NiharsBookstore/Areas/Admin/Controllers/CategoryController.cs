@@ -37,9 +37,31 @@ namespace NiharsBookstore.Areas.Admin.Controllers
             {
                 return NotFound();
             }
-            return View();
+            return View(category);
         }
-         //API Calls
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult Upsert(Category category)
+        {
+            if (ModelState.IsValid)
+            {
+                if (category.Id == 0)
+                {
+                    _unitOfWork.Category.Add(category);
+
+                }
+                else
+                {
+                    _unitOfWork.Category.Update(category);
+                }
+                _unitOfWork.Save();           
+                return RedirectToAction(nameof(Index));
+            }
+            return View(category);
+        }
+
+
+        //API Calls
         #region API CALLS
         [HttpGet]
         public IActionResult GetAll()
