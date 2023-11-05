@@ -182,7 +182,7 @@ Date:2/11/2023  Time:19:38
 
 Added new class file called category.cs
 added migration for category 
-add-migration AddCategoryToDb
+`add-migration AddCategoryToDb
 
 
  ******************************
@@ -245,6 +245,12 @@ edited code in new repo file
 
 edited startup.cs file
 
+
+ ******************************
+Date:5/11/2023  Time:12:52
+
+Created Controller in Admin Area
+Edited Code
 
 
 

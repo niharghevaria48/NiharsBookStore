@@ -5,8 +5,9 @@ using System.Text;
 
 namespace NiharsBooks.DataAccess.Repository.IRepository
 {
-    interface ICategoryRepository
+   public interface ICategoryRepository :IRepository<Category>
     {
         void Update(Category category);
+        
     }
 }

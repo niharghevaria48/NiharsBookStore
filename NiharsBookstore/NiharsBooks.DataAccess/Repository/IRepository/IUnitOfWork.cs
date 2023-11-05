@@ -4,7 +4,9 @@ using System.Text;
 
 namespace NiharsBooks.DataAccess.Repository.IRepository
 {
-    interface UnitOfWork
+    public interface IUnitOfWork: IDisposable
     {
+        ICategoryRepository Category { get; }
+        ISP_Call SP_Call { get; }
     }
 }
