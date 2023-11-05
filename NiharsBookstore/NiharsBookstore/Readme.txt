@@ -252,5 +252,13 @@ Date:5/11/2023  Time:12:52
 Created Controller in Admin Area
 Edited Code
 
+ ******************************
+Date:5/11/2023  Time:13:20
+created new folder called Category in Views
+Added Razor View
+replace the code with the provided code
+Changed code in layout file 
+Run it works fine
+
 
 
