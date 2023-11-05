@@ -69,6 +69,19 @@ namespace NiharsBookstore.Areas.Admin.Controllers
             var allObj = _unitOfWork.Category.GetAll();
             return Json(new { data = allObj });
         }
+
+        [HttpDelete]
+        public IActionResult Delete(int id)
+        {
+            var objFromDb = _unitOfWork.Category.Get(id);
+            if (objFromDb == null)
+            {
+                return Json(new { success = false, message = "Error while deleteing" });
+            }
+            _unitOfWork.Category.Remove(objFromDb);
+            _unitOfWork.Save();
+            return Json(new { success = true, message = "Delete Successful" });
+        }
         #endregion
     }
 

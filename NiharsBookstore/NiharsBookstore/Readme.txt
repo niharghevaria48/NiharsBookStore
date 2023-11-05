@@ -300,6 +300,19 @@ Added code in category controller
 Date:5/11/2023  Time:15:00
 Run the application and its working fine
 
+******************************
+Date:5/11/2023  Time:15:05
+added delete function in categorycontroller
+added delete button functionality in js file
+
+******************************
+Date:5/11/2023  Time:15:12
+Added provided piecc of code for delete button 
+run the application works fine
+tried updating and deleting 
+works fine
+push to github
+
 
 
 
