@@ -254,11 +254,43 @@ Edited Code
 
  ******************************
 Date:5/11/2023  Time:13:20
+
+
 created new folder called Category in Views
 Added Razor View
 replace the code with the provided code
 Changed code in layout file 
 Run it works fine
+
+
+ ******************************
+Date:5/11/2023  Time:13:37
+
+Modified index.cshtml
+check for the buttons it works fine
+commented out that piece of code
+Added new js file in wwwroot folder
+paste the provided code from blackboard in js file
+link the script file in index.cshtml
+
+
+
+
+ ******************************
+Date:5/11/2023  Time:13:45
+Added code in  category controller
+created new partian views
+named them _CreateAndBackToListButton
+_EditAndBackToListButton
+added code in bothe of the view
+
+
+ ******************************
+Date:5/11/2023  Time:14:00
+Modifed upsert.cshtml
+added new asp action  to upsert
+Added section call to upseret.cshtml
+
 
 
 
