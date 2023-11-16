@@ -314,5 +314,16 @@ works fine
 push to github
 
 
+******************************
+Date15/11/2023  Time:09:17 pm
+Created Covertype model
+
+
+******************************
+Date15/11/2023  Time:09:25 pm
+Added IcovertypeRepository and CoverTypeRepository 
+Added both of them in unitofwork and Iunitofwork
+
+
 
 
