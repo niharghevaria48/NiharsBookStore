@@ -360,4 +360,24 @@ Date:16/11/2023  Time: 4:33 pm
 Added new class named it as product
 
 
+******************************
+Date:16/11/2023  Time: 4:39 pm
+Added required code in product class and added new piece in applicationdb context
+
+
+******************************
+Date:16/11/2023  Time: 4:42 pm
+added migration using follwing command
+add-migration addProductToDb
+Migration files: 20231117214228_addProductToDb
+
+Updated the database
+check in SQL server got the table
+
+
+******************************
+Date:16/11/2023  Time: 4:47 pm
+added validation rules to product class
+
+
 
