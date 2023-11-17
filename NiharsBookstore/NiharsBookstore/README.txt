@@ -330,5 +330,13 @@ Migration file name: 20231117022051_AddCoverTypeToDB
 updated the database
 Check sql Server object explorer got the table
 
+******************************
+Date:16/11/2023  Time: 9:20
+Added covertype in Nav bar
+
+******************************
+Date:16/11/2023  Time: 9:20
+Added Covertype controller with add required method
+
 
 
