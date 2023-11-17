@@ -419,3 +419,15 @@ added new product.js file
 added product in nav bar 
 
 
+
+******************************
+Date:16/11/2023  Time: 6:18 pm
+created Upsert.cs for products in view
+added richtext box using tiny.cloud
+
+******************************
+Date:16/11/2023  Time: 6:22 pm
+Added new folder and subfolder in wwwroot called images/products
+uncomment upsert post method
+run the application having exception
+
