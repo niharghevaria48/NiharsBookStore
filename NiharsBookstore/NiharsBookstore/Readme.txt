@@ -399,4 +399,14 @@ Date:16/11/2023  Time: 5:16 pm
 Added Product controller
 added WebhostingEnvironment 
 
+******************************
+Date:16/11/2023  Time: 5:22 pm
+
+added ProdcutVM  in ViewModel
+install Microsoft.AspNetCore.Mvc.ViewFeatures packages
+
+******************************
+Date:16/11/2023  Time: 5:46 pm
+Modified product controller , updated code in Iactionresult
+
 
