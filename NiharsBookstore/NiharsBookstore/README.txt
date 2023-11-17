@@ -410,3 +410,12 @@ Date:16/11/2023  Time: 5:46 pm
 Modified product controller , updated code in Iactionresult
 
 
+******************************
+Date:16/11/2023  Time: 6:02 pm
+
+Added new index view
+Added neccesory code to index view 
+added new product.js file 
+added product in nav bar 
+
+
