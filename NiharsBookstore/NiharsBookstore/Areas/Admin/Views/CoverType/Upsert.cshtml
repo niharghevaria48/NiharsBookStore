@@ -1,8 +1,8 @@
-﻿@model NiharsBooks.Models.Category;
+﻿@model NiharsBooks.Models.CoverType;
 @{
-@*    ViewData["Title"] = "Upsert";*@
+    ViewData["Title"] = "Upsert";
     Layout = "~/Views/Shared/_Layout.cshtml";
-var title = "Create Category";
+    var title = "Create CoverType";
 }
 
 <form method="post">
@@ -10,7 +10,7 @@ var title = "Create Category";
         <div asp-validation-summary="ModelOnly" class="text-danger"></div>
         @if (Model.Id != 0)
         {
-            title = "Edit Category";
+            title = "Edit CoverType";
         }
         <div class="col-12 border-bottom">
             <h2 class="text-primary">@title</h2>
@@ -19,7 +19,7 @@ var title = "Create Category";
             <div class="form-group row">
                 <div class="col-4">
                     <label asp-for="Name"></label>
-                    
+
                 </div>
                 <div class="col-8">
                     <input asp-for="Name" class="form-control" />
@@ -43,8 +43,4 @@ var title = "Create Category";
         </div>
     </div>
 </form>
-
-@section Scripts{ 
-<partial name="_ValidationScriptsPartial" />
-}
 

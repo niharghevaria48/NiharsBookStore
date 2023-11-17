@@ -15,12 +15,15 @@ namespace NiharsBooks.DataAccess.Repository
             _db = db;
             Category = new CategoryRepository(_db);
             SP_Call = new SP_Call(_db);
+            CoverType = new CoverTypeRepository(_db);
         }
 
         public ICategoryRepository Category { get; private set; }
 
         public ISP_Call SP_Call { get; private set; }
-        public ICoverTypeRepository CoverTypeRepository { get; private set; }
+        public ICoverTypeRepository CoverType { get; private set; }
+
+        
 
         public void Dispose()
         {

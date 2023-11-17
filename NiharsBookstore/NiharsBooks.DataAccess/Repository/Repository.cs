@@ -23,7 +23,7 @@ namespace NiharsBooks.DataAccess.Repository.IRepository
             public void Add(T entity)
             {
                 dbSet.Add(entity);      // add context so classes correspond to the DbSet in ApplicationDbContext
-            }
+            }   
 
             public T Get(int id)
             {

@@ -340,3 +340,20 @@ Added Covertype controller with add required method
 
 
 
+******************************
+Date:16/11/2023  Time: 9:38
+Created new folder in Views named it as Covetype
+added view in covertype named it as index
+added view in covertype named it as upsert
+
+
+
+
+
+******************************
+Date:16/11/2023  Time: 10:00
+Created new covertype.js file
+linked that js file to the index file
+
+
+
