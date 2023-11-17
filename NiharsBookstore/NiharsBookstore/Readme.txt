@@ -379,5 +379,24 @@ check in SQL server got the table
 Date:16/11/2023  Time: 4:47 pm
 added validation rules to product class
 
+Added validationmigration using follwing command
+add-migration addValidationToProduct
+migration file: 20231117214841_addValidationToProduct
+
+updated the database
+
+
+******************************
+Date:16/11/2023  Time: 5:05 pm
+Added Product to repository
+added IproductRepository to Irepository interface
+Added Update method in product class
+Added Product to unitofwork and Iunitofwork
+
+******************************
+Date:16/11/2023  Time: 5:16 pm
+
+Added Product controller
+added WebhostingEnvironment 
 
 
