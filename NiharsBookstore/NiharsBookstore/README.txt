@@ -320,6 +320,15 @@ Date:16/11/2023  Time: 9:15
 Created Covertype.cs file
 Created Covertype repository class and interface and added it to the  unitofwork and iunitofwork
 
+******************************
+Date:16/11/2023  Time: 9:17
+added migration using follwing command
+Add-migration AddCoverTypeToDB
+Migration file name: 20231117022051_AddCoverTypeToDB
+20231117021646_AddCoverTypeToDB
+
+updated the database
+Check sql Server object explorer got the table
 
 
 
