@@ -386,3 +386,11 @@ migration file: 20231117214841_addValidationToProduct
 updated the database
 
 
+******************************
+Date:16/11/2023  Time: 5:05 pm
+Added Product to repository
+added IproductRepository to Irepository interface
+Added Update method in product class
+Added Product to unitofwork and Iunitofwork
+
+
