@@ -8,17 +8,14 @@ using System.Text;
 
 namespace NiharsBooks.DataAccess.Repository
 {
-    class ProductRepository: Repository<Product>, IProductRepository
+    public class ProductRepository: Repository<Product>, IProductRepository
     {
         private readonly ApplicationDbContext _db;
         public ProductRepository(ApplicationDbContext db) : base(db)
         {
             _db = db;
         }
-        /*public void Update(CoverType coverType)
-        {
-            throw new NotImplementedException();
-        }*/
+       
         public void Update(Product product)
         {
             var objFromDb = _db.Products.FirstOrDefault(s => s.Id == product.Id);
@@ -38,5 +35,10 @@ namespace NiharsBooks.DataAccess.Repository
 
             }
         }
+
+      /*  public void Update()
+        {
+            throw new NotImplementedException();
+        }*/
     }
 }
