@@ -375,4 +375,14 @@ Updated the database
 check in SQL server got the table
 
 
+******************************
+Date:16/11/2023  Time: 4:47 pm
+added validation rules to product class
+
+Added validationmigration using follwing command
+add-migration addValidationToProduct
+migration file: 20231117214841_addValidationToProduct
+
+updated the database
+
 
