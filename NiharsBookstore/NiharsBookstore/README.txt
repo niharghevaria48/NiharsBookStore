@@ -393,4 +393,16 @@ added IproductRepository to Irepository interface
 Added Update method in product class
 Added Product to unitofwork and Iunitofwork
 
+******************************
+Date:16/11/2023  Time: 5:16 pm
+
+Added Product controller
+added WebhostingEnvironment 
+
+******************************
+Date:16/11/2023  Time: 5:22 pm
+
+added ProdcutVM  in ViewModel
+install Microsoft.AspNetCore.Mvc.ViewFeatures packages
+
 
