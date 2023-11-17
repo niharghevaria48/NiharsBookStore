@@ -314,5 +314,50 @@ works fine
 push to github
 
 
+******************************
+Date:16/11/2023  Time: 9:15
+
+Created Covertype.cs file
+Created Covertype repository class and interface and added it to the  unitofwork and iunitofwork
+
+******************************
+Date:16/11/2023  Time: 9:17
+added migration using follwing command
+Add-migration AddCoverTypeToDB
+Migration file name: 20231117022051_AddCoverTypeToDB
+20231117021646_AddCoverTypeToDB
+
+updated the database
+Check sql Server object explorer got the table
+
+******************************
+Date:16/11/2023  Time: 9:20
+Added covertype in Nav bar
+
+******************************
+Date:16/11/2023  Time: 9:20
+Added Covertype controller with add required method
+
+
+
+******************************
+Date:16/11/2023  Time: 9:38
+Created new folder in Views named it as Covetype
+added view in covertype named it as index
+added view in covertype named it as upsert
+
+
+
+
+
+******************************
+Date:16/11/2023  Time: 10:00
+Created new covertype.js file
+linked that js file to the index file
+
+******************************
+Date:16/11/2023  Time: 4:33 pm
+Added new class named it as product
+
 
 
