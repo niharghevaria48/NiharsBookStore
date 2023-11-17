@@ -315,14 +315,10 @@ push to github
 
 
 ******************************
-Date15/11/2023  Time:09:17 pm
-Created Covertype model
+Date:16/11/2023  Time: 9:15
 
-
-******************************
-Date15/11/2023  Time:09:25 pm
-Added IcovertypeRepository and CoverTypeRepository 
-Added both of them in unitofwork and Iunitofwork
+Created Covertype.cs file
+Created Covertype repository class and interface and added it to the  unitofwork and iunitofwork
 
 
 
