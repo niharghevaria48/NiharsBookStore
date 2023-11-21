@@ -355,6 +355,7 @@ Date:16/11/2023  Time: 10:00
 Created new covertype.js file
 linked that js file to the index file
 
+
 ******************************
 Date:16/11/2023  Time: 4:33 pm
 Added new class named it as product
@@ -424,4 +425,16 @@ added product in nav bar
 Date:16/11/2023  Time: 6:18 pm
 created Upsert.cs for products in view
 added richtext box using tiny.cloud
+
+******************************
+Date:16/11/2023  Time: 6:22 pm
+Added new folder and subfolder in wwwroot called images/products
+uncomment upsert post method
+run the application having exception
+
+
+******************************
+Date:16/11/2023  Time: 6:27 pm
+Changed my theme because having issue with the font color
+New Theme Name: materia
 
