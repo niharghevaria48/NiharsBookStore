@@ -438,3 +438,7 @@ Date:16/11/2023  Time: 6:27 pm
 Changed my theme because having issue with the font color
 New Theme Name: materia
 
+
+******************************
+Date:21/11/2023  Time: 11:24 am
+Haveing exception solved by adding new product referance in Unitofwork
