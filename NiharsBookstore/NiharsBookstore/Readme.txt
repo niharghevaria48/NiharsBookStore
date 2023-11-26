@@ -442,3 +442,17 @@ New Theme Name: materia
 ******************************
 Date:21/11/2023  Time: 11:24 am
 Haveing exception solved by adding new product referance in Unitofwork
+
+******************************
+Date:26/11/2023  Time: 11:24 am
+Added validation to Covertype forget to do last time
+add-migration addValidationToCoverType
+Migration file: 20231126162359_addValidationToCoverType
+
+Updated Database
+
+
+******************************
+Date:26/11/2023  Time: 11:28 am
+Added new fields in Product class (price,price50,price100), changed foregin key to covertypeid
+
