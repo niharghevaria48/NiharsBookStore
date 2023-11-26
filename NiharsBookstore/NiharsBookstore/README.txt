@@ -474,3 +474,13 @@ Added  variable  in SD.cs file
 Date:26/11/2023  Time: 12:40 pm
 Added new fields in productrepository file
 
+
+******************************
+Date:26/11/2023  Time: 12:55 pm
+Updated Upsert and API delete method in product controller
+
+******************************
+Date:26/11/2023  Time: 1:21 pm
+
+Changed in Upsert.cshtml 
+
