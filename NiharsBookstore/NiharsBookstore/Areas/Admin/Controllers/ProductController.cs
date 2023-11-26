@@ -17,11 +17,13 @@ namespace NiharsBookstore.Areas.Admin.Controllers
     {
         private readonly IUnitOfWork _unitOfWork;
         private readonly IWebHostEnvironment _hostEnvironment;
+
         public ProductController(IUnitOfWork unitOfWork, IWebHostEnvironment hostEnvironment)
         {
             _unitOfWork = unitOfWork;
             _hostEnvironment = hostEnvironment;
         }
+
         public IActionResult Index()
         {
             return View();
@@ -41,13 +43,14 @@ namespace NiharsBookstore.Areas.Admin.Controllers
                 {
                     Text = i.Name,
                     Value = i.Id.ToString()
-                }),
+                })
             };
             if (id == null)
             {
+                // this is for create
                 return View(productVM);
             }
-
+            // this is for edit
             productVM.Product = _unitOfWork.Product.Get(id.GetValueOrDefault());
             if (productVM.Product == null)
             {
@@ -55,26 +58,9 @@ namespace NiharsBookstore.Areas.Admin.Controllers
             }
             return View(productVM);
         }
+
         [HttpPost]
         [ValidateAntiForgeryToken]
-        /*public IActionResult Upsert(Product product)
-        {
-            if (ModelState.IsValid)
-            {
-                if (product.Id == 0)
-                {
-                    _unitOfWork.Product.Add(product);
-
-                }
-                else
-                {
-                    _unitOfWork.Product.Update(product);
-                }
-                _unitOfWork.Save();
-                return RedirectToAction(nameof(Index));
-            }
-            return View(product);
-        }*/
         public IActionResult Upsert(ProductVM productVM)
         {
             if (ModelState.IsValid)
@@ -142,7 +128,9 @@ namespace NiharsBookstore.Areas.Admin.Controllers
             }
             return View(productVM);
         }
+
         #region API CALLS
+
         [HttpGet]
         public IActionResult GetAll()
         {
@@ -151,17 +139,6 @@ namespace NiharsBookstore.Areas.Admin.Controllers
         }
 
         [HttpDelete]
-        /* public IActionResult Delete(int id)
-         {
-             var objFromDb = _unitOfWork.Product.Get(id);
-             if (objFromDb == null)
-             {
-                 return Json(new { success = false, message = "Error while deleteing" });
-             }
-             _unitOfWork.Product.Remove(objFromDb);
-             _unitOfWork.Save();
-             return Json(new { success = true, message = "Delete Successful" });
-         }*/
         public IActionResult Delete(int id)
         {
             var objFromDb = _unitOfWork.Product.Get(id);
@@ -181,5 +158,6 @@ namespace NiharsBookstore.Areas.Admin.Controllers
         }
 
         #endregion
+
     }
 }
