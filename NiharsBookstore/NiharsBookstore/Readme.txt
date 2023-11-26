@@ -456,3 +456,26 @@ Updated Database
 Date:26/11/2023  Time: 11:28 am
 Added new fields in Product class (price,price50,price100), changed foregin key to covertypeid
 
+******************************
+Date:26/11/2023  Time: 12:09 pm
+
+Added migration for new fields that are added in product model
+migration file: 20231126170757_UpdateProductModel
+updated the database
+
+
+******************************
+Date:26/11/2023  Time: 12:13 pm
+
+Added  variable  in SD.cs file
+
+
+******************************
+Date:26/11/2023  Time: 12:40 pm
+Added new fields in productrepository file
+
+
+******************************
+Date:26/11/2023  Time: 12:55 pm
+Updated Upsert and API delete method in product controller
+
