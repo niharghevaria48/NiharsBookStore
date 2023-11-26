@@ -469,3 +469,8 @@ Date:26/11/2023  Time: 12:13 pm
 
 Added  variable  in SD.cs file
 
+
+******************************
+Date:26/11/2023  Time: 12:40 pm
+Added new fields in productrepository file
+
