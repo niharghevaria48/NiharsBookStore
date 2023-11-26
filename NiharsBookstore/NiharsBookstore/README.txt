@@ -438,3 +438,16 @@ Date:16/11/2023  Time: 6:27 pm
 Changed my theme because having issue with the font color
 New Theme Name: materia
 
+
+******************************
+Date:21/11/2023  Time: 11:24 am
+Haveing exception solved by adding new product referance in Unitofwork
+
+******************************
+Date:26/11/2023  Time: 11:24 am
+Added validation to Covertype forget to do last time
+add-migration addValidationToCoverType
+Migration file: 20231126162359_addValidationToCoverType
+
+Updated Database
+
