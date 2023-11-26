@@ -488,3 +488,8 @@ Changed in Upsert.cshtml
 Date:26/11/2023  Time: 3:12 pm
 Changed in home controller and startup file
 
+******************************
+Date:26/11/2023  Time: 4:35 pm
+Edited upsert.cshtml and prouct controller
+
+
