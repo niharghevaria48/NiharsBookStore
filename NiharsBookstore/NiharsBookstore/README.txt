@@ -492,4 +492,6 @@ Changed in home controller and startup file
 Date:26/11/2023  Time: 4:35 pm
 Edited upsert.cshtml and prouct controller
 
-
+******************************
+Date:27/11/2023  Time: 6:15 pm
+Edited Index.cshtml to remove strike from prices
