@@ -505,3 +505,8 @@ Date: 2023-12-04  Time: 3:38 pm
 Change formate of Date and time
 Had to delete readme because there was 2 readme.txt in my repo
 so deleted one readme
+
+
+******************************
+Date: 2023-12-04  Time: 5:47 pm
+Trying to delete list50,list100

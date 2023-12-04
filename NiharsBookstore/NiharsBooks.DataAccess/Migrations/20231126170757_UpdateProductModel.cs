@@ -10,26 +10,7 @@ namespace NiharsBooks.DataAccess.Migrations
                 name: "FK_Products_CoverTypes_CategoryId",
                 table: "Products");
 
-            migrationBuilder.AddColumn<double>(
-                name: "Price",
-                table: "Products",
-                type: "float",
-                nullable: false,
-                defaultValue: 0.0);
-
-            migrationBuilder.AddColumn<double>(
-                name: "Price100",
-                table: "Products",
-                type: "float",
-                nullable: false,
-                defaultValue: 0.0);
-
-            migrationBuilder.AddColumn<double>(
-                name: "Price50",
-                table: "Products",
-                type: "float",
-                nullable: false,
-                defaultValue: 0.0);
+         
 
             migrationBuilder.CreateIndex(
                 name: "IX_Products_CoverTypeId",
@@ -55,17 +36,7 @@ namespace NiharsBooks.DataAccess.Migrations
                 name: "IX_Products_CoverTypeId",
                 table: "Products");
 
-            migrationBuilder.DropColumn(
-                name: "Price",
-                table: "Products");
-
-            migrationBuilder.DropColumn(
-                name: "Price100",
-                table: "Products");
-
-            migrationBuilder.DropColumn(
-                name: "Price50",
-                table: "Products");
+           
 
             migrationBuilder.AddForeignKey(
                 name: "FK_Products_CoverTypes_CategoryId",
