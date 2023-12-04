@@ -510,3 +510,8 @@ so deleted one readme
 ******************************
 Date: 2023-12-04  Time: 5:47 pm
 Trying to delete list50,list100
+
+
+******************************
+Date: 2023-12-04  Time: 6:29 pm
+Updated index.cshtml because there was a speeloing mistake in index file
