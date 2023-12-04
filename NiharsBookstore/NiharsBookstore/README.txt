@@ -1,4 +1,4 @@
-﻿Assignment-2
+﻿﻿Assignment-2
 
 ******************************
 Date: 2023-10-25  Time:1:43
@@ -499,3 +499,8 @@ Edited Index.cshtml to remove strike from prices
 ******************************
 Date: 2023-12-04  Time: 1:18 pm
 Uncommented the sslport from launchsetting.json file 
+
+
+******************************
+Date: 2023-12-04  Time: 1:18 pm
+Having Some isse with the README file
