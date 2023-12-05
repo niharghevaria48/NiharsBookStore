@@ -515,3 +515,14 @@ Trying to delete list50,list100
 ******************************
 Date: 2023-12-04  Time: 6:29 pm
 Updated index.cshtml because there was a speeloing mistake in index file
+
+
+
+******************************
+Date: 2023-12-05  Time: 2:49 pm
+Was having follwing warning when i jumped to the product table
+DataTables warning: table id=tblData - Requested unknown parameter 'price' for row 0,
+column 2. For more information about this error, please see http://datatables.net/tn/4
+
+Tried going on ablve website but didn't find anything that will work
+Looked for any spelling and space mistakes all over the project but didnt find anthing.
